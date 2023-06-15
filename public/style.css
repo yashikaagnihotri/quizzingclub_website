@@ -1,0 +1,257 @@
+*{
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* HEADER */
+.nav-comp{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 50px 30px 31px 30px;
+    color: white;
+}
+  
+.nav-comp:hover{
+      background-color: white;
+      color: black;
+      text-shadow: 0 0 1px black;
+}
+  
+.logo-img{
+      height: 70px;
+}
+  
+.navbr ul{
+      position: absolute;
+      right: 60px;
+}
+  
+.navbr{
+       width: 100%;
+       z-index: +1;
+}
+
+/* FOOTER */
+
+.footer{
+    background-color: #212529;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.socials{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    width: 400px;
+}
+
+.social-links{
+    color: white;
+    margin: 7px 0;
+    text-decoration: none;
+}
+
+a .social-links:hover{
+    text-decoration: underline;
+}
+
+.copyright{
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    background-color: #212529;
+}
+
+/* HOME */
+
+.home-img{
+    opacity: 0.9;
+    height: 500px;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.headings{
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    text-shadow: 2px 3px 6px rgba(0, 0, 0, 0.942);
+}
+
+h1.headings{
+    font-size: 70px;
+    margin-bottom: 40px;
+}
+
+h3.headings{
+    font-size: 30px;
+}
+
+.home-content{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.join-btn{
+    padding: 4px 10px;
+    border: none;
+    margin-top: 40px;
+    border-radius: 5px;
+    font-weight: bolder;
+    background-color: white;
+    box-shadow: 0 0 9px rgba(0, 0, 0, 0.792);
+}
+
+.join-btn:hover{
+    background-color: #212529e9;
+    color: white;
+    font-weight: normal;
+}
+
+/* ABOUT */
+
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+p{
+    text-align: center;
+    font-size: 18px;
+}
+
+.about h3{
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 30px;
+}
+
+.other-headings{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 55px;
+}
+
+/* CONTACT US */
+
+.contact-us{
+    margin: 25px;
+    border-radius: 8px;
+}
+
+.contact-us form{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-us h1{
+    text-align: center;
+}
+
+.contact-us form{
+    margin: 50px;
+}
+
+.contact-us form input, .contact-us form textarea{
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.517);
+    border: 1px solid rgba(0, 0, 0, 0.669);
+    border-radius: 4px;
+    width: 350px;
+    padding: 5px;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+.form-inside img{
+    opacity: 0.8;
+    height: 300px;
+    margin-left: 50px;
+}
+
+.form-inside{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* QUIZZES */
+
+.quizzes{
+    text-align: center;
+    background-color: #6e85b261;
+    padding: 50px;
+}
+
+.quizzes h2{
+    font-family: 'Josefin Sans', sans-serif;
+    margin-bottom: 40px;
+}
+
+.quizzes-btn{
+    border: none;
+    padding: 10px 20px;
+    margin: 40px;
+    border-radius: 7px;
+    background-color: #212529e9;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.429);
+    color: white;
+}
+
+.quizzes p{
+    font-weight: bold;
+}
+
+.quizzes-btn:hover{
+    background-color: #212529;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.609);
+}
+
+/* EC INFORMATION */
+
+.info-ec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 70px 40px;
+}
+
+.info-ec img{
+    padding: 35px;    
+}
+
+.side-img{
+    height: 180px;
+}
+
+.middle-img{
+    height: 350px;
+}
+
+.info-ec h2{
+    font-weight: bold;
+
+}
+
+.info-ec p{
+    width: 150px;
+    text-align: left;
+    font: 15px;
+}
+
+.middle-img-section{
+    display: flex;
+    flex-direction: column;
+}
+
+.info-ec button{
+    outline: none;
+    border: none;
+    background-color: white;
+}
